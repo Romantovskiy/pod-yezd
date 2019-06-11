@@ -1,0 +1,3 @@
+﻿  unittest1.cpp
+c:\users\admin\source\repos\harry\harry\harry.cpp(22): warning C4244: return: преобразование "__int64" в "int", возможна потеря данных
+  HarryTest.vcxproj -> C:\Users\Admin\source\repos\Harry\Debug\HarryTest.dll
