@@ -1,7 +1,8 @@
 #include "stdafx.h"
 #include "CppUnitTest.h"
 #include "..\Harry\pch.h"
-#include "C:\Users\Admin\source\repos\Harry\Harry\Harry.cpp"
+#include "..\Harry\Harry.cpp"
+//#include "C:\Users\Admin\source\repos\Harry\Harry\Harry.cpp"
 using namespace std;
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
@@ -11,13 +12,17 @@ namespace HarryTest
 	{
 	public:
 		
-		TEST_METHOD(Test01)
+		TEST_METHOD(Test00)
 		{
 			Assert::AreEqual(1, 1);
 		}
+		TEST_METHOD(Test01)
+		{
+			Assert::AreEqual(100, program(1, 1, 100));
+		}
 		TEST_METHOD(Test02)
 		{
-			Assert::AreEqual(1, 1);
+			Assert::AreEqual(51, program(1, 2, 101));
 		}
 		TEST_METHOD(Test03)
 		{
@@ -54,3 +59,4 @@ namespace HarryTest
 
 	};
 }
+
